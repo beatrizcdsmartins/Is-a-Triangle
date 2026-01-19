@@ -20,7 +20,7 @@ playBtn.addEventListener('click', () => {
 
     if (segmentos.some(n => n <= 0 || isNaN(n))) {
         result.innerHTML = `Revise seus valores!`
-        triangleImg.src = './../assets/errorTriangle.png'
+        triangleImg.src = './assets/errorTriangle.png'
         return
     }
 
@@ -32,7 +32,7 @@ Matematicamente, para três segmentos formarem <br>
 um triângulo, o comprimento de cada lado deve ser 
 <strong> menor <br> que a soma dos outros dois.</strong> 
      `
-        triangleImg.src = './../assets/errorTriangle.png'
+        triangleImg.src = './assets/errorTriangle.png'
       triangleImg.style.width = '300px'
 
     } else if ((a === b && b !== c) || (a === c && a !== b) || (b === c && b !== a)) {
@@ -41,7 +41,7 @@ um triângulo, o comprimento de cada lado deve ser
         Você formou o <strong>ISÓSCELES</strong>. <br> 
 Triângulo formado por 2 segmentos de retas iguais e 1 diferente.
         `
-        triangleImg.src = './../assets/isosceles.svg'
+        triangleImg.src = './assets/isosceles.svg'
 
     } else if ((a === b) && (b === c)) {
         result.innerHTML = `
@@ -49,7 +49,7 @@ Triângulo formado por 2 segmentos de retas iguais e 1 diferente.
 Triângulo formado por 3 segmentos de retas iguais.
         
         `
-        triangleImg.src = './../assets/equilatero.svg'
+        triangleImg.src = './assets/equilatero.svg'
     } else {
         result.innerHTML = `
         Você formou o <strong>Escaleno</strong>. <br> 
@@ -57,7 +57,7 @@ Triângulo formado por 3 segmentos de retas diferentes.
         
         
         `
-        triangleImg.src = './../assets/escaleno.svg'
+        triangleImg.src = './assets/escaleno.svg'
     }
 
 

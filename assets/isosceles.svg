@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="120"
+  height="160"
+  viewBox="0 0 200 300"
+  xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Glow Neon -->
+    <filter id="neon-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Triângulo Isósceles Alto -->
+  <polygon
+    points="100,20 160,280 40,280"
+    fill="none"
+    stroke="#FF2DFF"
+    stroke-width="6"
+    filter="url(#neon-glow)"
+    stroke-linejoin="round"
+  />
+</svg>

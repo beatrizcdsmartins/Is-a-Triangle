@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Efeito Neon -->
+    <filter id="neon-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Triângulo Escaleno Neon -->
+  <polygon
+    points="40,150 140,110 120,30"
+    fill="none"
+    stroke="#00FFF7"
+    stroke-width="6"
+    filter="url(#neon-glow)"
+    stroke-linejoin="round"
+  />
+</svg>

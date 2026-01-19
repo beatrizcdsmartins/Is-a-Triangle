@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="shortcut icon" href="./assets/iconTriangle.png" type="image/x-icon">
+    <title>Is a Triangle?</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div>
+            <h1>Is a Triangle?</h1>
+            <p>Adicione 3 segmentos de retas para vermos qual triângulo irá se formar.</p>
+
+        </div>
+
+        <div class="mainDiv">
+            <section>
+                <div class="containerInputs">
+                    <div>
+                        <label for="1">Segmento 1:</label>
+                        <input id="1" type="text" class="segmento">
+                    </div>
+
+                    <div>
+                        <label  for="2">Segmento 2:</label>
+                        <input id="2"  type="text" class="segmento">
+                    </div>
+
+                    <div>
+                        <label  for="3">Segmento 3:</label>
+                        <input id="3"  type="text"  class="segmento">
+                    </div>
+
+                    <button id="playBtn">Play</button>
+                </div>
+            </section>
+
+
+            <section class="containerRight">
+
+                <div class="resultado"></div>
+
+                <section class="containerImgs">
+                    <img class="triangleImg" src="./assets/triangleTrigonometric.png" alt="Triangle"> 
+                </section>
+            </section>
+
+
+        </div>
+
+        <div>
+            <div class="containerSocialMedias">
+                <a target="_blank" href="https://beatrizcdsmartins.github.io/Portfolio2.0/"><img src="./assets/icons8-pasta.svg" alt="portfolio" title="Portfólio"></a>
+                <a target="_blank" href="https://github.com/beatrizcdsmartins/"><img src="./assets/github.png" alt="github" title="Github"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/beatriz-cardoso-martins/"><img src="./assets/linkedin.png" alt="linkedin" title="Linkedin"></a>
+
+            </div>
+
+
+            <footer>
+                <p>Desenvolvido com </p> <img src="./assets/heartlittle.png" alt="heart">
+                <p>por Beatriz Martins</p>
+            </footer>
+        </div>
+
+
+
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="./JS/script.js"></script>
+
+    <script type="module" src="./JS/anime.js"></script>
+</body>
+
+</html>

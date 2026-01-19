@@ -69,7 +69,7 @@ Além da lógica matemática, o projeto explora **animações visuais**, **efeit
 - Animações organizadas via **Anime.js**
 - Efeitos contínuos suaves
 - Hover interativo
-
-<a href="https://beatrizcdsmartins.github.io/Is-a-Triangle/">🔗Clique aqui e confira✨</a>
 - Neon flicker (simulação de falha elétrica)
 - Transformações sem quebrar layout
+
+<a href="https://beatrizcdsmartins.github.io/Is-a-Triangle/">🔗Clique aqui e confira✨</a>
